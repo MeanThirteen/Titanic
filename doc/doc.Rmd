@@ -1,0 +1,50 @@
+---
+title: "Titanic: Machine Learning From Disastor"
+output: 
+  html_notebook: 
+    #code_folding: "hide"
+    theme: simplex #cerulean journal flatly readable spacelab united cosmo lumen paper sandstone simplex yeti
+    highlight: default #default tango pygments kate monochrome espresso zenburn haddock textmate
+---
+###Introduction
+A starter project to learn R and Machine Learning, the documentation of this process is intended as a guide and a future reference for other projects. The project will tackle the challenge 'Titanic – Machine Learning from Disaster' from [Kaggle](https://www.kaggle.com/c/titanic)
+
+>The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
+>
+>One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+>
+>In this challenge, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
+
+###Project Directory 
+How is the project directory organized? A quick look at the directory tree; 
+```
+   Titanic/
+      ├─── R/
+      ├─── data/
+      ├─── doc/
+      ├─── output/
+        ├──── data/
+        └──── figs/
+      ├─── project.Rproj
+      └─── run.R
+```
+Read about [how](http://centerkey.com/tree/) this directory tree was generated here using `ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'` 
+
+
+
+* `R`: contains various files with function definitions (but only function definitions - no code that actually runs).
+
+* `data`: contains data used in the analysis. This is treated as read only; in particular the R files are never allowed to write to the files in here.
+
+* `doc`: contains the project documentation -this notebook and all images are stored in this directory.
+
+* `output`: Directory contains two folders `data` and `figs`, each folder holds code generated data and figures respectively.
+
+* `project.Rproj`: open to view the project in RStudio
+
+* `run.R`: runs the analysis
+
+
+#Overview
+
+ 
